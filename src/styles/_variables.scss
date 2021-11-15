@@ -1,0 +1,26 @@
+// Characters which are escaped by the escape-svg function
+$escaped-characters: (
+  ("<", "%3c"),
+  (">", "%3e"),
+  ("#", "%23"),
+  ("(", "%28"),
+  (")", "%29"),
+);
+
+// Colors
+$primary: #AF2F2F;
+$hover: #D15555;
+$title: rgba($primary, 0.15);
+$border-hint: #D0D0D0;
+$todo-item-text: #272424;
+$status-bar: #676363;
+$background: #E5E5E5;
+$selected: #2FAFAF;
+
+// Fonts
+$font-family: 'Noto Sans SC', sans-serif;
+
+// Todos
+$todo-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+$todo-new-input-icon: url("data:image/svg+xml,<svg width='32' height='21' viewBox='0 0 32 21' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M3.76 0.906738L16 13.1201L28.24 0.906738L32 4.66674L16 20.6667L0 4.66674L3.76 0.906738Z' fill='#{$border-hint}'/></svg>");
+$todo-delete-button-icon: url("data:image/svg+xml,<svg width='14' height='13' viewBox='0 0 14 13' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M13.4167 1.37581L12.1242 0.083313L7.00004 5.20748L1.87587 0.083313L0.583374 1.37581L5.70754 6.49998L0.583374 11.6241L1.87587 12.9166L7.00004 7.79248L12.1242 12.9166L13.4167 11.6241L8.29254 6.49998L13.4167 1.37581Z' fill='#{$primary}' fill-opacity='0.15'/></svg>");
