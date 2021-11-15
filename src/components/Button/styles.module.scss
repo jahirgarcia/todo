@@ -1,0 +1,18 @@
+@import '../../styles//variables';
+
+.button {
+  cursor: pointer;
+  background-color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+
+  &.bordered {
+    border: 1px solid $title;
+    border-radius: 3px;
+  }
+
+  &.link {
+    text-decoration: underline;
+  }
+}
